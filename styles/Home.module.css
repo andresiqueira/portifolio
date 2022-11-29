@@ -3,13 +3,19 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 85vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hash {
+  color: #6d28d9;
+  font-weight: bolder;
+  font-size: 38px;
 }
 
 .footer {
@@ -21,11 +27,18 @@
   align-items: center;
 }
 
-.footer a {
+.footer ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+}
+
+.footer ul li {
+  display: flex;
+  margin: 0 40px;
+}
+
+.footer li a {
+  display: flex;
+  cursor: pointer;
 }
 
 .title a {
