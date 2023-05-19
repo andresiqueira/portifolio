@@ -1,5 +1,10 @@
 .container {
   padding: 0 2rem;
+  background-color: #041014;
+  height: 100vh;
+  z-index: -2;
+  width: 100%;
+  position: fixed;
 }
 
 .main {
@@ -40,6 +45,8 @@
 
 .footer ul {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .footer ul li {
@@ -137,6 +144,11 @@
     width: 100%;
     flex-direction: column;
   }
+
+  /* .footer ul {
+    margin: 0;
+    padding: 0;
+  } */
 }
 
 @media (prefers-color-scheme: dark) {
